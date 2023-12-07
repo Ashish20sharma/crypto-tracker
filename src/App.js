@@ -25,7 +25,6 @@ function App() {
         <Navbar api={api} setpage={setpage} viewdetails={viewdetails} setviewdetails={setviewdetails} />
         <Routes>
           <Route path='/' element={<Page1 api={api} coinPerPage={12} page={page} setpage={setpage} viewdetails={viewdetails} setviewdetails={setviewdetails} />} />
-          <Route path='/page1' element={<Page1 api={api} coinPerPage={12} page={page} setpage={setpage} viewdetails={viewdetails} setviewdetails={setviewdetails} />} />
         </Routes>
       </BrowserRouter>
     </>
